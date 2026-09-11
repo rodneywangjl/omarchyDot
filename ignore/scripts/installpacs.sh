@@ -6,11 +6,11 @@ packages=(
     # dmidecode
     # dosfstools
     # gamescope
-    gitleaks
+    # gitleaks
     # protonup-qt   (USE YAY)
     # perl-image-exiftool
     scx-scheds
-    # steam
+    steam
     stow
     telegram-desktop
     yazi
