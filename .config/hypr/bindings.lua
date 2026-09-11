@@ -140,3 +140,6 @@ hl.bind("SUPER + SHIFT + H", hl.dsp.window.swap({ direction = "left" }))
 hl.bind("SUPER + SHIFT + L", hl.dsp.window.swap({ direction = "right" }))
 hl.bind("SUPER + SHIFT + K", hl.dsp.window.swap({ direction = "up" }))
 hl.bind("SUPER + SHIFT + J", hl.dsp.window.swap({ direction = "down" }))
+
+-- Captures
+hl.bind("SUPER + Z", hl.dsp.exec_cmd("omarchy-menu toggle capture"))
