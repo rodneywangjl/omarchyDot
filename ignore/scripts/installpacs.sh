@@ -10,6 +10,7 @@ packages=(
     # protonup-qt   (USE YAY)
     # perl-image-exiftool
     scx-scheds
+    scx-tools
     steam
     stow
     telegram-desktop
