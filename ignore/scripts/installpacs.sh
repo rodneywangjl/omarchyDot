@@ -11,6 +11,7 @@ packages=(
     # perl-image-exiftool
     scx-scheds
     scx-tools
+    spotify
     steam
     stow
     telegram-desktop
