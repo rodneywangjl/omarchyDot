@@ -22,6 +22,12 @@ hl.unbind("SUPER + ALT + RETURN")
 hl.unbind("SUPER + RETURN")
 hl.unbind("SUPER + SHIFT + RETURN")
 hl.unbind("SUPER + SHIFT + F")
+hl.unbind("SUPER + SHIFT + C")
+hl.unbind("SUPER + SHIFT + X")
+hl.unbind("SUPER + SHIFT + S")
+hl.unbind("SUPER + SHIFT + G")
+hl.unbind("SUPER + SHIFT + E")
+hl.unbind("SUPER + SHIFT + P")
 hl.unbind("SUPER + ALT + SHIFT + F")
 hl.unbind("SUPER + B")
 hl.unbind("SUPER + SHIFT + B")
@@ -105,8 +111,6 @@ hl.bind("SUPER + SHIFT + B", hl.dsp.exec_cmd(browser .. " --private"))
 hl.bind("SUPER + M", hl.dsp.exec_cmd("omarchy-launch-or-focus spotify"))
 
 hl.bind("SUPER + N", hl.dsp.exec_cmd("omarchy-launch-editor"))
-
-hl.bind("SUPER + SHIFT + D", hl.dsp.exec_cmd("uwsm-app -- " .. terminal .. " -e lazydocker"))
 
 hl.bind("SUPER + O", hl.dsp.exec_cmd("omarchy-launch-or-focus \"^obsidian$\" \"uwsm-app -- obsidian -disable-gpu --enable-wayland-ime\""))
 
