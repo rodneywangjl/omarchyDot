@@ -118,7 +118,7 @@ hl.bind("SUPER + O", hl.dsp.exec_cmd("omarchy-launch-or-focus \"^obsidian$\" \"u
 -- If your web app url contains #, type it as ## to prevent hyperland treat it as comments
 
 hl.bind("SUPER + A", hl.dsp.exec_cmd("omarchy-launch-webapp \"https://chatgpt.com\""))
-
+hl.bind("SUPER + S", hl.dsp.exec_cmd("uwsm-app -- " .. terminal .. " -e opencode \"$(omarchy-cmd-terminal-cwd)\""))
 hl.bind("SUPER + SHIFT + A", hl.dsp.exec_cmd("omarchy-launch-webapp \"https://claude.ai/new\""))
 
 -- Walker
