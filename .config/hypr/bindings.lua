@@ -32,6 +32,7 @@ hl.unbind("SUPER + ALT + SHIFT + F")
 hl.unbind("SUPER + B")
 hl.unbind("SUPER + SHIFT + B")
 hl.unbind("SUPER + S")
+hl.unbind("SUPER + U")
 
 -- Apps
 hl.unbind("SUPER + M")
@@ -93,6 +94,8 @@ hl.unbind("SUPER + SHIFT + BACKSPACE")
 -- ===== Binds =====
 
 -- Terminal / files / browser
+
+hl.bind("SUPER + U", hl.dsp.layout("togglesplit"))
 
 hl.bind("SUPER + ALT + RETURN", hl.dsp.exec_cmd("uwsm-app -- xdg-terminal-exec --dir=\"$(omarchy-cmd-terminal-cwd)\" tmux new"))
 
